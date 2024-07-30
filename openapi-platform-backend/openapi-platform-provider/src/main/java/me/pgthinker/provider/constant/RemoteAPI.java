@@ -34,4 +34,14 @@ public interface RemoteAPI {
      * 城市信息
      */
     String CITY_INFO="https://j.i8tq.com/weather2020/search/city.js";
+
+    /**
+     * 获取随机外国地址
+     */
+    String CITY_ADDRESS="https://fakerapi.it/api/v1/addresses?_quantity=";
+
+    /**
+     * 获取一本国外书籍
+     */
+    String BOOK="https://fakerapi.it/api/v1/books?_quantity=";
 }
